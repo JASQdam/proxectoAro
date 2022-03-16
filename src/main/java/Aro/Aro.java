@@ -5,11 +5,14 @@ package Aro;
  * @author Joaquín Alberto Sánchez Quintela
  */
 public class Aro {
-    public static final double MINIMO = 0.0;
+
+    public static final double LIMITERADIO = 0.0;
+    public static final double MINIMO = LIMITERADIO;
 
     private int coordenadaX;
     private int coordenadaY;
     private double radio;
+    
 
     public Aro() {
     }
