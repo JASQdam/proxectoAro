@@ -50,36 +50,58 @@ public class Aro {
 
     }
 
+    /**
+     *
+     */
     public static final double LIMITERADIO = 0.0;
+
+    /**
+     *
+     */
     public static final double MINIMO = LIMITERADIO;
 
     private int coordenadaX;
     private int coordenadaY;
     private double radio;
     
-
+    /**
+     *Obter coordenadas e radio dun círculo
+     */
     public Aro() {
     }
 
+    /**
+     *
+     * @param valorX
+     * @param valorY
+     * @param valorRadio
+     */
     public Aro(int valorX, int valorY, double valorRadio) {
         coordenadaX = valorX;
         coordenadaY = valorY;
         setRadio(valorRadio);
     }
 
-
-
-
-
-
+    /**
+     *
+     * @return
+     */
     public double obterDiametro() {
         return radio * 2;
     }
 
+    /**
+     *
+     * @return
+     */
     public double obterCircunferencia() {
         return Math.PI * obterDiametro();
     }
 
+    /**
+     *
+     * @return
+     */
     public double obterSuperficie() {
         return Math.PI * radio * radio;
     }
@@ -89,6 +111,11 @@ public class Aro {
         return "Centro = [" + coordenadaX + "," + coordenadaY + "]; Radio = " + radio;
     }
 
+    /**
+     *
+     * @param trasladarX
+     * @param trasladarY
+     */
     public void trasladarCentro(int trasladarX, int trasladarY){
         coordenadaX=coordenadaX + trasladarX;
         coordenadaY=coordenadaY + trasladarY;
