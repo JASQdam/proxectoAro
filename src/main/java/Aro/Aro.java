@@ -1,20 +1,20 @@
-package aro;
+package Aro;
 
 /**
- * Probas de refactorización en NetBeans coa clase aro
+ * Probas de refactorización en NetBeans coa clase Aro
  * @author Joaquín Alberto Sánchez Quintela
  */
-public class aro {
+public class Aro {
     public static final double MINIMO = 0.0;
 
     private int x;
     private int y;
     private double radio;
 
-    public aro() {
+    public Aro() {
     }
 
-    public aro(int valorX, int valorY, double valorRadio) {
+    public Aro(int valorX, int valorY, double valorRadio) {
         x = valorX;
         y = valorY;
         establecerRadio(valorRadio);
