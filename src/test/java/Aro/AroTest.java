@@ -1,5 +1,5 @@
 /**
- * Probas para a clase aro
+ * Probas para a clase Aro
  * @author Joaquín Alberto Sánchez Quintela
  */
 package Aro;
